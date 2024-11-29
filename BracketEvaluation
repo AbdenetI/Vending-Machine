@@ -1,0 +1,46 @@
+using System;
+
+public class Stack
+{
+    private char[] elements;
+    private int top;
+    private int max;
+
+    public Stack(int size)
+    {
+        elements = new char[size];
+        top = -1;
+        max = size;
+    }
+    public bool IsEmpty()
+    {
+        return top == -1;
+    }
+    public void Push(char item)
+    {
+        if (top == max - 1)
+        {
+            Console.WriteLine("Stack Overflow");
+            return;
+        }
+        elements[++top] = item;
+    }
+    public char Pop()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Stack Underflow");
+            return '\0'; 
+        }
+        return elements[top--];
+    }
+    public char Peek()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Stack is Empty");
+            return '\0';
+        }
+        return elements[top];
+    }
+}

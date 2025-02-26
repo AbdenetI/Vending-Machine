@@ -72,14 +72,26 @@ This simulation is structured to handle real-world vending machine functionaliti
   
 
 4️⃣ Object-Oriented Design
-- Encapsulated classes: `Coin`, `CoinBox`, `Product`, `VendingMachine`, and `VendingMachineMenu`  
-- Modular approach** for coin management, inventory tracking, and transaction handling  
+
+
+- Encapsulated classes: `Coin`, `CoinBox`, `Product`, `VendingMachine`, and `VendingMachineMenu`
+
+  
+- Modular approach** for coin management, inventory tracking, and transaction handling
+
+  
 - Uses lists and collections to store products and coins efficiently  
 
 
 💡 Technologies Used  
+
+
 🔹 C# – Object-Oriented Programming  
-🔹 NET Framework – Windows Application Development  
+
+
+🔹 NET Framework – Windows Application Development 
+
+
 🔹 Data Structures – Lists, Dictionaries for managing inventory and coins  
 
 
@@ -131,7 +143,13 @@ This project is a practical demonstration of real-world programming skills, incl
 
 🏆 Future Enhancements  
 
-🔹 GUI version using WinForms/WPF for a better user experience  
+🔹 GUI version using WinForms/WPF for a better user experience 
+
+
 🔹 Database integration for persistent product inventory and transactions  
+
+
 🔹 Enhanced error handling and exception management  
+
+
 🔹 More realistic user interactions with enhanced logging  
